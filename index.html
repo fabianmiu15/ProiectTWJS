@@ -1,0 +1,584 @@
+<!DOCTYPE html>
+<html lang ="ro">
+    <head>
+        <title>Primul ajutor</title>
+        <meta charset="utf-8">
+        <meta name="autor" content="Miu Georgian-Fabian">
+        <meta name="description" content="Pagina dedicată învățării de către persoanele nespecializate a tehnicilor de prim ajutor de bază în cazul unor urgențe de natură medicală">
+        <meta name="keywords" content="prim ajutor, resuscitare, sufocare, hemoragie, leziuni, Crucea Roșie, urgență, principii, accident, victimă, sănătate, viață, siguranță">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css" type="text/css">
+        <link rel="icon" href="img/favicon.ico" type="image/x-icon">
+    </head>
+
+    <body>
+        <header>
+            <div class="container struc">
+                <img src="img/PA.jpeg" alt="Prim ajutor" style="width:100%; height:auto;">
+                <div class="navbar top">
+                    <a href="index.html">Acasă</a>
+                    <a href="#sect1">Crucea Roșie Română</a>
+                    <div class="dropdown">
+                        <button class="dropbuton">Tehnici de prim ajutor</button>
+                        <div class="dropdown-content">
+                            <a href="#sect2">Etapele primului ajutor</a>
+                            <a href="#sect3">Suport vital de bază și defibrilare externă automată</a>
+                            <a href="#sect4">Intoxicația cu monoxid de carbon</a>
+                            <a href="#sect5">Accidentul Vascular Cerebral (AVC)</a>
+                        </div>
+                    </div>
+                    <a href="#sect6">Formular de înscriere</a>
+                </div>
+            
+                <div class="center">
+                    <h1 class="big">Învață primul ajutor!</h1>
+                    <p class="bign">În situațiile de urgență, primul ajutor poate face diferența între viață și moarte. Intervenția rapidă din partea oricărei persoane,
+                        specializate sau nu, poate salva viața celor din jurul nostru.
+                    </p>
+                </div>
+            </div>
+        </header>
+
+        <main>
+
+            <section id="login-section">
+                <h3>Autentificare</h3>
+                <form id="login-form">
+                    <label for="username">Utilizator:</label>
+                    <input type="text" id="username" required />
+                    <br />
+                    <label for="password">Parola:</label>
+                    <input type="password" id="password" required />
+                    <br />
+                    <button type="submit">Login</button>
+                </form>
+            
+                <div id="logout-section" style="display: none;">
+                    <p id="welcome-message"></p>
+                    <button id="logout-button">Logout</button>
+                </div>
+            </section>
+            
+
+            <section id="sect1">
+                <h2>Mișcarea Internațională de Cruce Roșie și Semilună Roșie</h2>
+
+                <p class="paragraph"><b>Mișcarea Internațională de Cruce Roșie și Semilună Roșie</b> este cunoscută în întreaga lume ca o organizație de ajutor umanitar, reunind peste
+                128.000.000 de membri, ce acționează consecvent în vederea prevenirii și alinării suferințelor provocate de războaie, conflicte armate,
+                tensiuni politice, dezastre și calamități naturale sau sociale. 
+                </p>
+
+                <p class="paragraph"><b>Societatea Națională de Cruce Roșie din România</b> este o organizație umanitară, membră a Mișcării Internaționale de Cruce Roșie și Semilună Roșie,
+                auxiliară autorității publice și abilitată prin lege să asigure asistență umanitară în caz de dezastre și să vină în sprijinul celor mai
+                vulnerabile persoane.
+                </p>
+            
+                <h2>Principiile Fundamentale ale Mișcării Internaționale de Cruce Roșie și Semilună Roșie</h2>
+
+                <ul id="bigletter">
+                    <li>Umanitate</li>
+                    <li>Imparțialitate</li>
+                    <li>Neutralitate</li>
+                    <li>Independență</li>
+                    <li>Voluntariat</li>
+                    <li>Unitate</li>
+                    <li>Universalitate</li>
+                </ul>
+            </section>
+        
+            <iframe src="https://crucearosie.ro/" width="700" height="600" class="centered-iframe"></iframe>
+            
+
+            <section id="sect2">
+                <h2>Primul ajutor în patru pași</h2>
+    
+                <ol>
+                    <li>Luarea măsurilor de siguranță</li>
+                    <li>Evaluarea stării victimei / victimelor</li>
+                    <li>Apelarea serviciilor de urgență, dacă este necesar</li>
+                    <li>Acordarea primului ajutor</li>
+                </ol>
+
+
+                <p class="paragraph">Prima sarcină este aceea de a te asigura de faptul că există condiții de siguranță. Încearcă să afli ce s-a întâmplat. Analizează situația și verifică
+                     dacă există potențiale pericole (trafic, foc, surse de electricitate). </p>
+                <p class="paragraph">Nu te pune niciodată într-o situație riscantă. Apropie-te de locul accidentului numai dacă poți face acest lucru fără a-ți pune viața în pericol. Dacă 
+                te poți apropia de locul accidentului, încearcă să procedezi astfel încât victima și persoanele aflate la fața locului să fie în siguranță. </p>
+                <p class="paragraph">Dacă situația este nesigură și nu poți acorda ajutor decât dacă îți pui viața în pericol, apelează serviciile de urgență și așteaptă într-un loc sigur 
+                sosirea echipajelor specializate.</p>
+
+                <div class="images4p">
+                    <figure>
+                        <img src="img/incendiu.png" alt="incendiu" width="250" height="250">
+                        <figcaption>Incendiu într-o clădire</figcaption>
+                    </figure>
+
+                    <figure>
+                        <img src="img/curent.png" alt="accident cauzat de curentul electric" width="250" height="250">
+                        <figcaption>Accident cauzat de sursele<br> de curent electric</figcaption>
+                    </figure>
+
+                    <figure>
+                        <img src="img/trafic.png" alt="accident in trafic" width="250" height="250">
+                        <figcaption>Accident în trafic</figcaption>
+                    </figure>
+                </div>
+
+                <div class="continut">
+                    
+                    <div class="rautek">
+                        <h2>Manevra Rautek</h2>
+                        <p>Învață cum să aplici această tehnică salvatoare!</p>
+                    </div>
+
+                    <div class="rcont">
+                            <h3>Ce este Manevra Rautek?</h3>
+                            <p>Manevra Rautek este o tehnică folosită pentru a muta o persoană rănită într-un loc sigur, fără a provoca leziuni suplimentare. 
+                            Este esențială mai ales în situațiile de urgență când timpul este critic.
+                            </p>
+                        <div class="steps">
+                            <div class="step">
+                                <img src="img/pas1.png" alt="Pasul 1">
+                                <div class="description">
+                                    <p><strong>Pasul 1:</strong> Așază brațele victimei pe lângă corp.</p>
+                                </div>
+                            </div>
+                            <div class="step">
+                                <img src="img/pas2.png" alt="Pasul 2">
+                                <div class="description">
+                                    <p><strong>Pasul 2:</strong> Îngenunchează în spatele capului victimei. Așază o mână sub cap și pe cealaltă între omoplații victimei. Ridică
+                                    cu atenție capul și umerii victimei și apropie-te mai mult de aceasta.</p>
+                                </div>
+                            </div>
+                            <div class="step">
+                                <img src="img/pas3.png" alt="Pasul 3">
+                                <div class="description">
+                                    <p><strong>Pasul 3:</strong> Ridică spatele victimei în poziția șezând. Susține umerii victimei.</p>
+                                </div>
+                            </div>
+                            <div class="step">
+                                <img src="img/pas4.png" alt="Pasul 4">
+                                <div class="description">
+                                    <p><strong>Pasul 4:</strong> Trece-ți mâinile pe sub subsoara victimei și apucă unul dintre antrebrațele acesteia. Prinde cu o mână
+                                    încheietura mâinii victimei și cu cealaltă antebrațul acesteia.</p>
+                                </div>
+                            </div>
+
+                            <div class="step">
+                                <img src="img/pas5.png" alt="Pasul 5">
+                                <div class="description">
+                                    <p><strong>Pasul 5:</strong> Stai pe vine, fără a da drumul brațului victimei. Acum victima se află între picioarele tale depărtate. Apasă
+                                    bine brațul victimei pe pieptul acesteia.</p>
+                                </div>
+                            </div>
+
+                            <div class="step">
+                                <img src="img/pas6.png" alt="Pasul 6">
+                                <div class="description">
+                                    <p><strong>Pasul 6:</strong> Ridică-te în picioare cu spatele drept și trage victima în sus, astfel încât aceasta să fie sprijinită de tine. 
+                                    Mergi cu spatele, trăgând victima după tine. Fii atent la obstacolele care s-ar putea afla în spatele tău.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+               
+                <p class="paragraph">Al doilea lucru pe care trebuie să-l faci este să te prezinți și să explici ce anume intenționezi să faci, astfel vei câștiga încrederea victimei. </p>
+                <p class="paragraph"> Verifică starea victimei. Mai întâi, verifică dacă este conștientă și dacă respiră. Situațiile în care apar pierderea cunoștinței sau tulburările de respirație pot pune frecvent în pericol viața victimei. 
+                    Alte exemple de situații care pun în pericol viața victimei sunt hemoragiile grave, arsurile, durerile la nivelul toracelui, atacurile cerebrale etc. </p>
+                <p class="paragraph">Nu este întotdeauna necesară prezența la fața locului a personalului medical (de urgență) (de exemplu, pentru leziuni cutanate, mici stări de leșin,
+                    cu o durată scurtă). Dacă este nevoie de ajutor, alertați serviciile de urgență. 112 este numărul de urgență european, inclusiv în România. </p>
+                        <strong>Ce informații transmiți?</strong>
+                        <ul>
+                            <li>Prezintă-te și spune ce cunoștințe ai în legătură cu acordarea primului ajutor</li>
+                            <li>Explică ce s-a întâmplat, care este natura accidentului</li>
+                            <li>Comunică serviciilor de urgență unde anume trebuie să se deplaseze echipajele lor</li>
+                            <li>Oferă informații în legătură cu victimele și descrie starea în care se află acestea</li>
+                            <li>Comunică-i dispecerului care preia apelul că va exista cineva care va îndruma echipajele serviciilor de urgență către locul accidentului</li>
+                            <li>Răspunde la întrebările dispecerului care se ocupă de apelul tău</li>
+                            <li>Ai grijă ca linia telefonică să fie liberă, astfel încât cei de la serviciul de urgență să te poată suna dacă este necesar</li>
+                            <li>Roagă pe cineva să aștepte echipajele serviciilor de urgență, pentru a le îndruma spre locul accidentului</li>
+                        </ul>
+                
+            </section>
+
+            <section class="emergency-call">
+                <h2>Apel de urgență</h2>
+                <p>În cazul unei situații de urgență, sună imediat la 112!</p>
+                <a href="https://sts.ro/ro/servicii/despre-112/" class="call-112">Apel 112</a>
+            </section>
+
+
+            <section id="sect3">
+                <h2>Stopul cardio-respirator</h2>
+
+                <p class="paragraph">În cazul unui stop cardio-respirator există un deficit de oxigen la nivelul organelor vitale. Creierul este în mod special sensibil la lipsa de oxigen.
+                    În general, neuronii nu pot supraviețui în absența oxigenului mai mult de câteva minute. </p>
+                <h3>Verificarea stării de conștiență</h3>
+                <ul>
+                    <li>Scutură victima ușor, apucând-o de umeri.</li>
+                    <li>Întreabă victima, cu voce tare: „Sunteți bine, mă auziți?”</li>
+                </ul>
+         
+                <div class="constienta">
+                    <section class="column">
+                        <h3>Victima reacționează</h3>
+                        <ol>
+                            <li>Lasă victima în poziția în care ai găsit-o, verificând să nu existe niciun fel de pericol. Nu o deplasa decât dacă este în pericol.</li>
+                            <li>Încearcă să afli ce i s-a întâmplat victimei.</li>
+                            <li>Solicită ajutor, dacă este necesar sau ai anumite dubii.</li>
+                            <li>Verifică dacă victima este conștientă și respiră regulat.</li>
+                        </ol>
+                    </section>
+
+                    <section class="column">
+                        <h3>Victima nu reacționează</h3>
+                        <ol>
+                            <li>Strigă după ajutor. Fă acest lucru pentru a nu fi singur când acorzi primul ajutor. În timp ce o a doua persoană sună la serviciile de urgență
+                                și aduce un defibrilator automat extern (DAE), dacă este disponibil un astfel de dispozitiv la o distanță rezonabilă față de victimă, tu te 
+                                poți concentra asupra acesteia.</li>
+                            <li>Așază victima pe spate și eliberează-i căile respiratorii.</li>
+                        </ol>
+                    </section>
+                </div>
+
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/5bokrOK-33g?si=iGc1RS61AHIfPukQ" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" class="centered-iframe" allowfullscreen></iframe>
+
+                <h3>Verificarea respirației</h3>
+                <p class="paragraph"> 
+                    Imediat ce ai eliberat căile respiratorii ale victimei, poți să verifici dacă aceasta respiră.  </p>
+                    <ul>
+                        <li>Observă mișcările pieptului.</li>
+                        <li>Ascultă respirația lângă gura victimei.</li>
+                        <li>Apropie obrazul de gura victimei, pentru a-ți da seama dacă respiră.</li>
+                    </ul>
+
+                    <p class="paragraph"> Observă, ascultă și simte timp de 10 secunde dacă victima respiră normal. </p>
+                
+
+                <p class="paragraph">Dacă victima nu reacționează, dar respiră normal, o vom așeza în poziție laterală de siguranță folosind tehnica următoare: </p>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/k4yYTQrOElQ?si=y-pbFYGqnkTOxaqS" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" class="centered-iframe" allowfullscreen></iframe>
+                <p class="paragraph">Dacă victima nu reacționează și nu respiră normal, vom recurge la resuscitarea cardio-pulmonară.</p>
+
+                <h3>Resuscitarea cardio-pulmonară</h3>
+                <ol>
+                    <li>Începe cu treizeci de compresii toracice.</li>
+                    <li>Fă apoi respirații gură la gură de două ori.</li>
+                    <li>Alternează treizeci de compresii toracice cu două respirații gură.</li>
+                    <li>Continuă manevrele de resuscitare până în momentul în care sosește personalul specializat care poate continua resuscitarea, victima își recapătă
+                        cunoștința, se mișcă, deschide ochii, respiră normal sau ești prea obosit(ă) pentru a continua. </li>
+                </ol>
+
+                <h4>Tehnica compresiilor toracice</h4>
+
+                <div class="colleft">
+                    <div class="flipcard-container">
+                        <div class="flipcard">
+                            <div class="flipcardint">
+                                <div class="flipcardfront">
+                                    <img src="img/ct1.png" alt="ct1">
+                                </div>
+                                <div class="flipcardback">
+                                    <p>Asigură-te de faptul că victima este întinsă pe spate, pe o suprafață tare.
+                                    Îngenunchează în apropierea victimei, lângă brațul acesteia.</p> 
+                                </div>
+                            </div>
+                        </div>    
+                    
+                        <div class="flipcard">
+                            <div class="flipcardint">
+                                <div class="flipcardfront">
+                                    <img src="img/ct2.png" alt="ct2">
+                                </div>
+                                <div class="flipcardback">
+                                    <p>Pune podul palmei pe mijlocul cutiei toracice a victimei. 
+                                        Așază cealaltă palmă peste prima și încrucișează degetele.
+                                    </p> 
+                                </div>
+                            </div>
+                        </div>    
+                    
+                        <div class="flipcard">
+                            <div class="flipcardint">
+                                <div class="flipcardfront">
+                                    <img src="img/ct3.png" alt="ct3">
+                                </div>
+                                <div class="flipcardback">
+                                    <p>Asigură-te că umerii tăi se află chiar deasupra pieptului victimei.
+                                        Ținând brațele întinse, apasă în jos 5-6 cm pe stern.
+                                    </p> 
+                                </div>
+                            </div>
+                        </div>   
+
+                        <div class="flipcard">
+                            <div class="flipcardint">
+                                <div class="flipcardfront">
+                                    <img src="img/ct4.png" alt="ct4">
+                                </div>
+                                <div class="flipcardback">
+                                    <p>Efectuează treizeci de compresii toracice la un ritm de 100-120 de compresii pe minut.
+                                    </p> 
+                                </div>
+                            </div>
+                        </div>  
+                    
+                    </div>  
+                </div>  
+                
+          
+              
+                <p class="paragraph">Există o serie de melodii care au un ritm potrivit efectuării compresiilor toracice, astfel că sunt adesea utilizate de către începători
+                    pentru a se asigura că efectuează manevrele corect. Printre acestea se numără și melodia <i>Stayin' Alive</i>:
+                </p>
+             
+                <audio src="img/stayingalive.mp3" controls>Invalid audio</audio>
+
+
+
+                <h4>Tehnica respirațiilor gură la gură</h4>
+
+
+                <div class="colleft">
+                    <div class="flipcard-container">
+                        <div class="flipcard">
+                            <div class="flipcardint">
+                                <div class="flipcardfront">
+                                    <img src="img/rg1.png" alt="rg1">
+                                </div>
+                                <div class="flipcardback">
+                                    <p>Eliberează căile respiratorii ale victimei, pune-i o mână pe frunte și prinde-i 
+                                        nasul cu arătătorul și cu degetul mare.
+                                    </p> 
+                                </div>
+                            </div>
+                        </div>    
+
+                        <div class="flipcard">
+                            <div class="flipcardint">
+                                <div class="flipcardfront">
+                                    <img src="img/rg2.png" alt="rg2">
+                                </div>
+                                <div class="flipcardback">
+                                    <p>Inspiră normal, apleacă-te asupra victimei și acoperă-i gura complet cu gura ta.
+                                        Insuflă lent și constant aer în gura victimei.
+                                    </p> 
+                                </div>
+                            </div>
+                        </div>    
+
+                    </div>
+                </div>
+                
+                <p class="paragraph">Cum procedăm, însă, dacă victima nu reacționează și nu respiră normal, dar este disponibil un defibrilator automat extern (DAE)?</p>
+                <div class="continut">
+                    
+                    <div class="rautek">
+                        <h2>Defibrilatorul Automat Extern</h2>
+                        <p>Învață cum să îl utilizezi!</p>
+                    </div>
+
+                    <div class="rcont">
+                            <h3>Ce este un Defibrilator Automat Extern?</h3>
+                            <p>Un DAE reprezintă un dispozitiv acționat cu ajutorul unui computer, care analizează bătăile inimii victimei. După ce efectuează analiza, dispozitivul
+                                decide dacă sunt necesare șocurile electrice. DAE este un dispozitiv de înaltă precizie și va declanșa șocuri electrice numai atunci când este necesar.
+                            </p>
+                        <div class="steps">
+                            <div class="step">
+                                <img src="img/dae1.png" alt="Pasul 1">
+                                <div class="description">
+                                    <p><strong>Pasul 1:</strong> Efectuează manevre de resuscitare până în momentul în care este disponibil un DAE.</p>
+                                </div>
+                            </div>
+                            <div class="step">
+                                <img src="img/dae2.png" alt="Pasul 2">
+                                <div class="description">
+                                    <p><strong>Pasul 2:</strong> Pune în funcțiune DAE imediat ce ai la dispoziție un astfel de dispozitiv. Urmează întocmai indicațiile DAE.</p>
+                                </div>
+                            </div>
+                            <div class="step">
+                                <img src="img/dae3.png" alt="Pasul 3">
+                                <div class="description">
+                                    <p><strong>Pasul 3:</strong> Îndepărtează tot ceea ce acoperă pieptul victimei. Dispune electrozii pe pieptul victimei. Poziția corectă
+                                    a electrozilor este prezentată chiar pe ambalajul acestora.</p>
+                                </div>
+                            </div>
+                            <div class="step">
+                                <img src="img/dae4.png" alt="Pasul 4">
+                                <div class="description">
+                                    <p><strong>Pasul 4:</strong> Dacă este necesar un șoc electric, procedează în așa fel încât nimeni să nu stea în imediata vecinătate a 
+                                    victimei.</p>
+                                </div>
+                            </div>
+
+                            <div class="step">
+                                <img src="img/dae5.png" alt="Pasul 5">
+                                <div class="description">
+                                    <p><strong>Pasul 5:</strong> În situația în care dispozitivul indică faptul că trebuie să începi resuscitarea, efectuează imediat
+                                    manevre de resuscitare. Efectuează de fiecare dată câte treizeci de compresii toracice și două respirații gură la gură.</p>
+                                </div>
+                            </div>
+
+                            <div class="step">
+                                <img src="img/dae6.png" alt="Pasul 6">
+                                <div class="description">
+                                    <p><strong>Pasul 6:</strong> Urmează în continuare instrucțiunile date de dispozitiv, până în momentul în care sosește personalul
+                                    specializat care poate continua resuscitarea sau victima își recapătă cunoștința, se mișcă, deschide ochii, respiră normal.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </section>
+
+            <section id="sect4">
+                <h2 class="monoxid">Intoxicația cu monoxid de carbon</h2>
+
+                <div class="mgrid">
+                    <div class="mcolumn">
+                        <h3>Ce observi?</h3>
+                        <p>Simptomele tipice ale intoxicației cu monoxid de carbon sunt:</p>
+                        <ul>
+                            <li><span class="highlight">Dureri de cap, amețeală, somnolență, senzația de epuizare</span></li>
+                            <li><span class="highlight">Vomă și amețeli</span></li>
+                            <li><span class="highlight">Pierderea cunoștinței sau decesul</span></li>
+                            <li><span class="highlight">Tegumentele pot avea o culoare roz, deși s-a instalat hipoxia</span></li>
+                        </ul>
+                    </div>
+
+                    <div class="mcolumn">
+                        <h3>Ce trebuie să faci?</h3>
+                        <p>Dacă observi semnele unei intoxicații cu monoxid de carbon, acționează rapid!</p>
+                        <ul>
+                            <li><span class="highlight">Asigură-te că primul ajutor este acordat în condiții de siguranță</span></li>
+                            <li><span class="highlight">Apelează la serviciile de urgență</span></li>
+                            <li><span class="highlight">Deschide ușile și ferestrele</span></li>
+                            <li><span class="highlight">Închide cât mai rapid instalația care crezi că reprezintă sursa de monoxid de carbon</span></li>
+                            <li><span class="highlight">Transportă victima la loc sigur, fără a-ți pune viața în pericol</span></li>
+                            <li><span class="highlight"><b>Dacă îți acoperi gura cu o cârpă umedă, nu ești protejat(ă) împotriva monoxidului de carbon</b></span></li>
+                        </ul>
+                    </div>
+                </div>
+
+            </section>
+
+            <section id="sect5">
+
+                <h2 class="monoxid">Accidentul Vascular Cerebral (AVC)</h2>      
+                
+                <div class="containeravc">
+                    <div class="stepavc">
+                        <img src="img/avc1.png" alt="Zâmbet">
+                        <h3>Mersul</h3>
+                        <p>Victima nu își poate menține echilibrul?</p>
+                    </div>
+
+                    <div class="stepavc">
+                        <img src="img/avc2.png" alt="Ridicare brațe">
+                        <h3>Exprimarea</h3>
+                        <p>Victima vorbește greu și are dificultăți în a înțelege?</p>
+                    </div>
+
+                    <div class="stepavc">
+                        <img src="img/avc3.png" alt="Discurs neclar">
+                        <h3>Văzul</h3>
+                        <p>Victima nu mai vede bine sau chiar deloc?</p>
+                    </div>
+
+                    <div class="stepavc">
+                        <img src="img/avc4.png" alt="Vedere încețoșată">
+                        <h3>Fața</h3>
+                        <p>Victima are o figură „căzută”, tristă, amorțită?</p>
+                    </div>
+
+                    <div class="stepavc">
+                        <img src="img/avc5.png" alt="Slăbiciune bruscă">
+                        <h3>Forța musculară și sensibilitatea</h3>
+                        <p>Victima prezintă tulburări de sensibilitate, forță și coordonare musculară pe o parte a corpului?</p>
+                    </div>
+                </div>
+                
+
+                <p class="paragraph">În situația în care unul dintre simpotemele amintite mai sus se manifestă brusc, este posibil să ne confruntăm cu un accident vascular cerebral: </p>
+                <ul>
+                    <li>Apelează la serviciile de urgență</li>
+                    <li>Cere-i victimei să-și păstreze calmul și să nu depună efort</li>
+                    <li>Așază victima într-o poziție în care să stea comod (semișezând)</li>
+                    <li>Notează durata aproximativă a AVC</li>
+                    <li>Verifică cu regularitate victima, pentru a constata dacă este conștientă și dacă respiră</li>
+                </ul>
+            </section>
+
+            <section id="sect6">
+                <h3>Formular pentru înscrierea la cursul de prim ajutor</h3>
+                <div>
+                    <form id="registration-form" target="_self" method="post">
+                        <fieldset>
+                            <legend>Date personale</legend>
+                            <div>
+                                <label for="nume">Nume complet:</label>
+                                <input type="text" id="nume" name="nume" required minlength="3" maxlength="50"/>
+                            </div>
+
+                            <div>
+                                <label for="data">Data nașterii: </label>
+                                <input type="date" id="data" name="data" min="1925-01-15" max="2015-01-15" required value="2005-01-15"/>
+                            </div>
+
+                            <div>
+                                <label for="varsta">Vârsta: </label>
+                                <input type="text" id="varsta" name="varsta" required />
+                            </div>
+
+                            <div>
+                                <label for="cnp">CNP: </label>
+                                <input type="text" id="cnp" name="cnp" required/>
+                            </div>
+                        </fieldset>
+
+                        <fieldset>
+                            <legend>Contact</legend>
+
+                            <div>
+                                <label for="email">Email:</label>
+                                <input type="text" id="email" name="email" required/>
+                            </div>
+
+                            <div>
+                                <label for="telefon">Telefon:</label>
+                                <input type="text" id="telefon" name="telefon" required/>
+                            </div>
+
+                            <div>
+                                <label for="adresa">Adresa:</label>
+                                <textarea type="text" id="adresa" name="adresa" required rows="6" cols="30"></textarea>
+                            </div>
+                        </fieldset>
+
+                        <input type="submit" value="Trimite cerere"/>
+                    </form>
+                </div> 
+            </section>
+
+            <section id="myanimation">
+                <div class="containerheart">
+                    <h2>Primul Ajutor</h2>
+                    <p>Fii eroul pe care lumea îl așteaptă!</p>
+                    <div class="heart"></div>
+                </div>
+            </section>
+
+        </main>
+
+        <script src="pa.js"></script>
+    </body>
+
+    <!-- <footer class="site-footer">
+        <div class="footer-content">
+            <p>Creat cu pasiune de <span class="author">Miu Georgian-Fabian, instructor de prim ajutor</span> &copy; 2025</p>
+            <p>Visează. Creează. Inspiră.</p>
+        </div>
+    </footer> -->
+</html> 
+
